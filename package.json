@@ -8,7 +8,11 @@
     "ej2": "tsc-watch --onSuccess \"node dist/ejercicio-2.js\"",
     "doc": "typedoc",
     "test": "vitest run",
-    "coverage" : "vitest run --coverage --coverage.include src/*"
+    "test1": "vitest run tests/ejercicio-1.spec.ts",
+    "test2": "vitest run tests/ejercicio-2.spec.ts",
+    "coverage1" : "vitest run tests/ejercicio-1.spec.ts --coverage --coverage.include src/ejercicio-1.ts",
+    "coverage2" : "vitest run tests/ejercicio-2.spec.ts --coverage --coverage.include src/ejercicio-2.ts",
+    "coverage" : "vitest run tests/* --coverage --coverage.include src/*"
   },
   "repository": {
     "type": "git",
