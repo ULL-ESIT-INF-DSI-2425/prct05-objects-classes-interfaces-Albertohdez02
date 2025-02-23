@@ -1,5 +1,8 @@
 import { describe, expect, test } from "vitest";
-import { Type, Pokemon, Pokedex, Combatants, Combat } from "../src/ejercicio-1";
+import { Type } from "../src/ejercicio-1/types";
+import { Pokemon, Combatants } from "../src/ejercicio-1/pokemon";
+import { Pokedex} from "../src/ejercicio-1/pokedex";
+import { Combat } from "../src/ejercicio-1/combat";
 
 const pikachu = new Pokemon("Pikachu", 0.4, 6, Type.ELECTRIC, {
   hp: 35,

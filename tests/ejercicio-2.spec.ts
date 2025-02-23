@@ -1,5 +1,10 @@
 import { describe, expect, test, beforeEach, vi } from "vitest";
-import { MusicLibrary, Artist, Album, Song, MusicGenre, Entry, LibraryEntry } from "../src/ejercicio-2";
+import { MusicGenre, Entry, LibraryEntry } from "../src/ejercicio-2/types";
+import { Album } from "../src/ejercicio-2/album";
+import { Song } from "../src/ejercicio-2/song";
+import { Artist } from "../src/ejercicio-2/artist";
+import { MusicLibrary } from "../src/ejercicio-2/musiclibrary";
+
 
 describe("MusicLibrary Class Tests", () => {
   let musicLibrary: MusicLibrary;

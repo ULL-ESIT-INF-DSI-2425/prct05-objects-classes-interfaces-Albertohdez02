@@ -4,14 +4,14 @@
   "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FTPDI46d) [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18296932)",
   "main": "index.js",
   "scripts": {
-    "ej1": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\"",
-    "ej2": "tsc-watch --onSuccess \"node dist/ejercicio-2.js\"",
+    "ej1": "tsc-watch --onSuccess \"node dist/ejercicio-1/index.js\"",
+    "ej2": "tsc-watch --onSuccess \"node dist/ejercicio-2/index.js\"",
     "doc": "typedoc",
     "test": "vitest run",
     "test1": "vitest run tests/ejercicio-1.spec.ts",
     "test2": "vitest run tests/ejercicio-2.spec.ts",
-    "coverage1" : "vitest run tests/ejercicio-1.spec.ts --coverage --coverage.include src/ejercicio-1.ts",
-    "coverage2" : "vitest run tests/ejercicio-2.spec.ts --coverage --coverage.include src/ejercicio-2.ts",
+    "coverage1" : "vitest run tests/ejercicio-1.spec.ts --coverage --coverage.include src/ejercicio-1/*",
+    "coverage2" : "vitest run tests/ejercicio-2.spec.ts --coverage --coverage.include src/ejercicio-2*",
     "coverage" : "vitest run tests/* --coverage --coverage.include src/*"
   },
   "repository": {
