@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test1": "vitest run tests/ejercicio-1.spec.ts",
     "test2": "vitest run tests/ejercicio-2.spec.ts",
+    "test3": "vitest run tests/modificacion.spec.ts",
     "coverage1" : "vitest run tests/ejercicio-1.spec.ts --coverage --coverage.include src/ejercicio-1/*",
     "coverage2" : "vitest run tests/ejercicio-2.spec.ts --coverage --coverage.include src/ejercicio-2*",
     "coverage" : "vitest run tests/* --coverage --coverage.include src/*"
